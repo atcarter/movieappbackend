@@ -3,7 +3,7 @@ class Movie < ApplicationRecord
 
   validates :title, presence: true
   validates :synopsis, length: { in: 20..300}
-  validates :year, numericality: { greater_than: 1890 }
+  validates :year, numericality: { greater_than: 1887 }
   before_validation :titlecase
 
   private
