@@ -1,24 +1,15 @@
-# README
+# Movie-App-JavaScript-Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository is the backend to a movie review web application that allows users to post their own movie reviews. [Here is the link to the frontend](https://github.com/atcarter/movieappfrontend).
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+This web app will be locally hosted on your machine. First, clone this repository as well as the repository on the front end. Then, run `bundle install` to ensure all gems are present. Once this is complete, run `rails s`, and open the `index.html` file from the frontend repository. Once that file's open, you're able to start adding movies and reviews!
 
-* System dependencies
+## Contributor's Guide
 
-* Configuration
+Feel free to help expand the functionality of this application. Eventually, I would like to add the API that I used for my movie_cli app to have a movie's actual information associated with each movie object.
 
-* Database creation
+## License
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This application is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
