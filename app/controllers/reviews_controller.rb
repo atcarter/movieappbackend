@@ -18,8 +18,6 @@ class ReviewsController < ApplicationController
 
     if review.save
       render json: review
-    else
-      render json: {error: "Review not saved."}
     end
   end
 

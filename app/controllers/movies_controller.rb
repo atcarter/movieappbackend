@@ -19,8 +19,6 @@ class MoviesController < ApplicationController
 
     if movie.save
       render json: movie
-    else
-      render json: {error: "Movie not saved."}
     end
   end
 
